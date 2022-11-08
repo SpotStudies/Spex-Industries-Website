@@ -1,0 +1,99 @@
+body {
+  font-size: 10pt;
+  font-family: "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18,24,27);
+  line-height: 14pt;
+  padding: 5pt;
+  text-align: center;
+}
+
+#custom-shape-divider-top-1667472317 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  opacity: 0.5;
+}
+
+#custom-shape-divider-top-1667472317 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 75px;
+}
+
+#custom-shape-divider-top-1667472317 .shape-fill {
+  fill: #f8f8f8;
+}
+
+h1.h1 {
+  font: 25pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  font-weight: bolder;
+  line-height: 31pt;
+  color: rgb(249, 233, 233);
+  text-align: center;
+}
+
+h2#h2 {
+  font: 20pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  font-weight: bolder;
+  color: rgb(249, 233, 233);
+  text-align: center;
+}
+
+h3.header3 {
+  font: 18pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(249, 233, 233);
+  text-align: center;
+}
+
+p.subheader {
+  font: 15pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  text-align: center;
+}
+
+footer#foot {
+  font: 12pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  text-align: center;
+}
+
+img#spex {
+  border-radius: 15%;
+  border: 3px solid rgb(21, 108, 215);
+}
+
+img#Fun_Lib_Photo {
+  border-radius: 15%;
+  border: 3px solid rgb(255, 255, 255);
+  position: relative;
+  right: 150px;
+}
+
+img#Tic_Tac_Toe_Photo {
+  border-radius: 15%;
+  border: 3px solid rgb(255, 255, 255);
+  position: relative;
+  right: 150px;
+}
+
+p.products {
+  font: 15pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+  text-align: center;
+  position: relative;
+  left: 150px;
+  bottom: 125px;
+}
+
+a.a {
+  color: rgb(0, 217, 255);
+}
+
+footer#foot {
+  font: 12pt 'Source Code Pro', Georgia, 'Times New Roman', Times, sans-serif;
+  text-align: center;
+}
