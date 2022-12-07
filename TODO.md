@@ -1,1 +1,1 @@
-# First, do suppport thingi
+# Solve problem! (Support)

@@ -11,6 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+        <!--Connection of Index.js-->
+        <script src="index.js"></script>
+
         <div id="custom-shape-divider-top-1667472317">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -51,10 +54,33 @@
             <hr>
 
             <!--For Support! 🏤-->
-            <!--To do: Add a nice background and a nice system for support!-->
             <p class="subheader">If you want support, please mail us on <b>spexindustries28@gmail.com</b>.</p>
 
             <hr>
+
+            <!--To Do - Solve problem! (Support)-->
+            <h1 class="h1">Contact Us</h1>
+          <p class="subheader">Below, you can contact us!</p>
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="dd2215c4-b96e-4282-84b3-e917202c8585" />
+            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+            
+            <div id="center_forcefull">
+              <label for="name" class="subheader">Full Name</label>
+              <input type="text" name="name" id="name" placeholder="John Doe" required class="subheader" />
+
+              <label for="email" class="subheader">Email Address</label>
+              <input type="email" name="email" id="email" placeholder="email@serverprovider.com" required class="subheader" />
+            
+              <label for="message">Your Message</label>
+  
+              <textarea rows="5" name="message" id="message" placeholder="Your Message" required class="subheader"></textarea>
+            
+              <button type="submit">Send Message</button>
+            
+            <p class="subheader" id="result"></p>
+          </form>
+          </div> 
 
             <footer id="foot">Ⓒ Spex Industries 2022-2022 All Rights Reserved</footer>
     </body>
