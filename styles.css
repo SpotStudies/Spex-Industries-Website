@@ -97,3 +97,15 @@ footer#foot {
   font: 12pt 'Source Code Pro', Georgia, 'Times New Roman', Times, sans-serif;
   text-align: center;
 }
+
+label {
+  font: 13pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+}
+
+input {
+  font-family: "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+}
+
+button {
+  font: 13pt "Source Code Pro", Georgia, "Times New Roman", Times, sans-serif;
+}

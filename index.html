@@ -64,23 +64,26 @@
           <form action="https://api.web3forms.com/submit" method="POST" id="form">
             <input type="hidden" name="access_key" value="dd2215c4-b96e-4282-84b3-e917202c8585" />
             <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-            
-            <div id="center_forcefull">
-              <label for="name" class="subheader">Full Name</label>
-              <input type="text" name="name" id="name" placeholder="John Doe" required class="subheader" />
 
-              <label for="email" class="subheader">Email Address</label>
-              <input type="email" name="email" id="email" placeholder="email@serverprovider.com" required class="subheader" />
+              <label for="name">Full Name</label>
+              <input type="text" name="name" id="name" placeholder="John Doe" size="30" />
+
+              <br><br>
+
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" placeholder="email@serverprovider.com" size="35" />
+
+              <br><br>
             
               <label for="message">Your Message</label>
-  
-              <textarea rows="5" name="message" id="message" placeholder="Your Message" required class="subheader"></textarea>
+              <input type="text" name="message" id="message" placeholder="Your Message" size="45" />
+
+              <br><br>
             
               <button type="submit">Send Message</button>
             
             <p class="subheader" id="result"></p>
           </form>
-          </div> 
 
             <footer id="foot">Ⓒ Spex Industries 2022-2022 All Rights Reserved</footer>
     </body>
